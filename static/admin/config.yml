@@ -545,6 +545,28 @@ collections:
             label: Template
             required: true
             default: blog
+  - name: project
+    label: Project
+    files:
+      - name: project
+        label: Project
+        file: src/pages/project/index.md
+        fields:
+          - widget: string
+            name: title
+            label: Title
+            required: true
+            hint: The title of the page.
+          - widget: string
+            name: excerpt
+            label: Excerpt
+            required: false
+            hint: The excerpt of the page displayed in meta data.
+          - widget: hidden
+            name: template
+            label: Template
+            required: true
+            default: blog
   - name: page
     label: Pages
     folder: src/pages/
