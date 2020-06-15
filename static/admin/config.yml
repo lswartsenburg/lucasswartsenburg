@@ -661,3 +661,57 @@ collections:
     filter:
       field: template
       value: post
+  - name: projects
+    label: Projects
+    folder: src/pages/projects
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: The title of the project.
+      - widget: string
+        name: subtitle
+        label: Subtitle
+        required: false
+        hint: The text shown just below the project title.
+      - widget: date
+        name: date
+        label: Date
+        required: true
+      - widget: image
+        name: thumb_img_path
+        label: Featured Image
+        required: false
+        hint: The image shown in the project feed.
+      - widget: image
+        name: content_img_path
+        label: Alternative Featured Image
+        required: false
+        hint: The image shown in the single project.
+      - widget: string
+        name: excerpt
+        label: Excerpt
+        required: false
+        hint: The excerpt of the project displayed in the blog feed and meta data.
+      - widget: string
+        name: canonical_url
+        label: Canonical URL
+        required: false
+        hint: 'The canonical url of the project, if project originates elsewhere.'
+      - widget: hidden
+        name: template
+        label: Template
+        required: true
+        default: project
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+    filter:
+      field: template
+      value: project
