@@ -21,6 +21,18 @@
         "type": "link"
       },
       {
+        "type": "link",
+        "new_window": false,
+        "label": "Projects",
+        "url": "/projects/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Resume",
+        "url": "/resume/"
+      },
+      {
         "label": "About",
         "url": "/about/",
         "type": "link"
@@ -29,12 +41,6 @@
         "label": "Contact",
         "url": "/contact/",
         "type": "link"
-      },
-      {
-        "type": "link",
-        "new_window": false,
-        "label": "Projects",
-        "url": "/projects/"
       }
     ],
     "has_social": true,
