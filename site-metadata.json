@@ -47,35 +47,35 @@
     "social_links": [
       {
         "label": "Twitter",
-        "url": "https://twitter.com/",
+        "url": "https://twitter.com/lswartsenburg",
         "type": "icon",
         "icon_class": "fa-twitter",
         "new_window": true
       },
       {
-        "label": "Instagram",
-        "url": "https://www.instagram.com/",
+        "label": "Stack Overflow",
+        "url": "https://stackexchange.com/users/1387706/lswartsenburg",
         "type": "icon",
-        "icon_class": "fa-instagram",
+        "icon_class": "fa-stack-overflow",
         "new_window": true
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/",
+        "url": "https://github.com/lswartsenburg",
         "type": "icon",
         "icon_class": "fa-github",
         "new_window": true
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/",
+        "url": "https://www.linkedin.com/in/lucasswartsenburg/",
         "type": "icon",
         "icon_class": "fa-linkedin",
         "new_window": true
       },
       {
         "label": "DEV",
-        "url": "https://dev.to/",
+        "url": "https://dev.to/lswartsenburg",
         "type": "icon",
         "icon_class": "fa-dev",
         "new_window": true
