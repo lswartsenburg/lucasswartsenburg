@@ -108,6 +108,7 @@
 .site-nav-inside {
   padding-bottom: 4em;
   padding-top: 4em;
+
 }
 
 .menu {
@@ -123,6 +124,7 @@
 .menu-item {
   border-top: 1px solid _palette(border);
   padding: 0.5em 0;
+  list-style-type: none;
 
   &.current-menu-item {
     color: _palette(accent);

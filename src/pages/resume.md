@@ -1,4 +1,5 @@
 ---
 title: Resume
-template: page
+template: resume
 ---
+asdfsadf

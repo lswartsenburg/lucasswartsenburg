@@ -1,6 +1,6 @@
 {
-  "name": "stackbit-fresh-theme",
-  "description": "Stackbit Fresh Theme",
+  "name": "lucasswartsenburg",
+  "description": "Website lucasswartsenburg.com",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -10,13 +10,18 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.13.10",
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@stackbit/gatsby-plugin-menus": "0.0.4",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",
     "gatsby": "2.3.30",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-source-filesystem": "2.0.28",
     "gatsby-transformer-remark": "2.3.8",
+    "git": "^0.1.5",
     "js-yaml": "^3.12.2",
     "lodash": "^4.17.11",
     "marked": "^0.7.0",
@@ -30,6 +35,9 @@
     "react-html-parser": "^2.0.2",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
-    "sprintf-js": "^1.1.2"
+    "resumeGit": "https://github.com/lswartsenburg/resume.git#0.0.1",
+    "resumeLocal": "file:../resume",
+    "sprintf-js": "^1.1.2",
+    "yarn": "^1.22.10"
   }
 }
