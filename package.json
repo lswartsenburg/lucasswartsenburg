@@ -37,7 +37,6 @@
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "resumeGit": "git+https://github.com/lswartsenburg/resume.git#website",
-    "resumeLocal": "file:../resume",
     "sprintf-js": "^1.1.2",
     "yarn": "^1.22.10"
   }
