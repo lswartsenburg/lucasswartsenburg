@@ -14,6 +14,9 @@ import '@fortawesome/fontawesome-free/js/brands'
 
 export default class Resume extends React.Component {
     render() {
+        if (typeof window === 'undefined') {
+          return null;
+        }
         return (
             <Layout {...this.props}>
               <Component />
